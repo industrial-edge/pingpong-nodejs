@@ -2,7 +2,7 @@
 
 
 
-- [Databus Ping Pong implementation in C#](#databus-ping-pong-implementation-in-javascript)
+- [Databus Ping Pong implementation in Javascript](#databus-ping-pong-implementation-in-javascript)
   * [Description](#description)
     + [Overview](#overview)
   * [Installation](#installation)
