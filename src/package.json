@@ -1,0 +1,15 @@
+{
+  "name": "pingpong",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Boehmlaender",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^3.0.0",
+    "paho-mqtt": "^1.1.0"
+  }
+}

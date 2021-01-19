@@ -1,0 +1,25 @@
+version: '2.4'
+
+services:
+    pingpong_nodejs:
+        build:
+            context: ./src
+        image: pingpong_nodejs:1.0.1
+        networks:
+            - proxy-redirect 
+        environment:
+            - TOPIC_1=topic1
+            - TOPIC_2=topic2
+            - MQTT_USER=edge
+            - MQTT_PASSWORD=edge
+            - MQTT_IP=ie_databus
+        mem_limit: 100mb
+        volumes:
+            - './publish/:/publish/'
+            - './cfg-data/:/cfg-data/'
+
+
+networks:
+    proxy-redirect:
+        external:
+            name: proxy-redirect
