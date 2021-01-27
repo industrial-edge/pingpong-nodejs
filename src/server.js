@@ -13,6 +13,7 @@ var MQTT_TOPIC1 = process.env.TOPIC_1;
 var MQTT_TOPIC2 = process.env.TOPIC_2 ;
 var MQTT_USER = process.env.MQTT_USER ;
 var MQTT_PASSWORD = process.env.MQTT_PASSWORD;
+var MQTT_IP = process.env.MQTT_IP;
 
 try {
 
@@ -23,13 +24,13 @@ var MQTT_TOPIC1 = params.TOPIC_1;
 var MQTT_TOPIC2 = params.TOPIC_2;
 var MQTT_USER = params.MQTT_USER ;
 var MQTT_PASSWORD = params.MQTT_PASSWORD ;
+var MQTT_IP = params.MQTT_IP;
 
 
 }
 catch (error){
 }
 
-var MQTT_IP = process.env.MQTT_IP;
 
 
 /* MQTT Connection Option */
