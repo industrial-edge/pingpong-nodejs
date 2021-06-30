@@ -84,6 +84,8 @@ On the IED restart the PingPong application, to ensure the right configuration i
 
 Deploy the flow and test by injecting a string payload into the mqtt in node. If the string is "Ping", the application will answer with "Pong". If the string is "Pong" the application will answer with "Ping".
 
+The finished flow is available [here](src/Flow_Pingpong_Test.json) and can be imported into the IE Flow Creator.
+
 ![Flow Creator](graphics/FlowCreator.png)
 
 ## Documentation
