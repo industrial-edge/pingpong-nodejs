@@ -1,8 +1,8 @@
-# Databus Ping Pong JavaScript
+# Databus Ping Pong Node.js
 
-This application example contains the source files to build a Databus Ping Pong application implemented in JavaScript.
+This application example contains the source files to build a Databus Ping Pong application implemented in Node.js.
 
-- [Databus Ping Pong Javascript](#databus-ping-pong-javascript)
+- [Databus Ping Pong Node.js](#databus-ping-pong-node-js)
   - [Description](#description)
     - [Overview](#overview)
     - [General task](#general-task)
@@ -19,7 +19,7 @@ This application example contains the source files to build a Databus Ping Pong 
 
 ### Overview
 
-This application example shows how to connect to the IE Databus via MQTT and how to publish and subscribe data using an implementation in JavaScript.
+This application example shows how to connect to the IE Databus via MQTT and how to publish and subscribe data using an implementation in Node.js.
 The IE Flow Creator is used to exchange data between different topics within the IE Databus.
 
 ![Use Case](graphics/DataFlow.png)
