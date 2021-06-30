@@ -4,7 +4,7 @@ services:
     pingpong_nodejs:
         build:
             context: ./src
-        image: pingpong_nodejs:1.1.0
+        image: pingpong_nodejs:1.2.0
         networks:
             - proxy-redirect 
         environment:
