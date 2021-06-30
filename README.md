@@ -22,14 +22,14 @@ This application example contains the source files to build a Databus Ping Pong 
 This application example shows how to connect to the IE Databus via MQTT and how to publish and subscribe data using an implementation in JavaScript.
 The IE Flow Creator is used to exchange data between different topics within the IE Databus.
 
+![Use Case](graphics/DataFlow.png)
+
 This implementation example uses the ``node:14.17.1-alpine`` image as the base layer and runs the provided script after installing all necessary dependencies.
 
 This example also shows two ways of configuring the application:
 
 - configuration via file upload (fix configuration file)
 - configuration via system app Configuration Service (custom configuration UI with JSON Forms)
-
-![Use Case](graphics/DataFlow.png)
 
 ### General task
 
