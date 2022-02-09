@@ -44,12 +44,12 @@ The names of the IE Databus topics as well as the credentials used by the applic
 ### Used components
 
 - Industrial Edge Management (IEM) V1.2.0-36 / V1.2.14
-  - IE Databus Configurator V1.2.23
+  - IE Databus Configurator V1.2.29
   - IE Databus V1.2.16
   - IE Flow Creator V1.1.2
   - IE App Configuration Service V1.0.5
 - Industrial Edge Device (IED) V1.2.0-56
-- Industrial Edge App Publisher V1.2.7
+- Industrial Edge App Publisher V1.2.8
 - Docker Engine V20.10.3
 - Docker Compose V1.28.5
 
