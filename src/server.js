@@ -1,6 +1,6 @@
 
 /*
-Copyright 2020 Siemens AG
+Copyright (c) Siemens 2020
 This file is subject to the terms and conditions of the MIT License.  
 See LICENSE file in the top-level directory
 */
